@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#editor {
+  margin: 20px;
+}
+
+.ProseMirror {
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-height: 200px;
+}
+
+.ProseMirror-menubar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+.ProseMirror-menubar .ProseMirror-menuitem {
+  margin-right: 10px;
+}
